@@ -1,0 +1,24 @@
+.footer {
+    display: flex;
+    padding-top: 20px;
+    justify-content:flex-end;
+    font-size: 20px;
+    border-top-style: solid;
+    align-items: center;
+}
+
+.contactList {
+    list-style: none;
+}
+
+li {
+    padding-left: 20px;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
+a:hover {
+    font-weight: bold;
+    /* color: orangered; */
+}

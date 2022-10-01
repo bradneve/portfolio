@@ -1,0 +1,30 @@
+.gradPic {
+    max-width: 400px;
+    border-radius: 400px;
+    padding: 30px;
+}
+
+.streak {
+    background-color: #cbd3e0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom-right-radius: 500px  ;
+    border-top-right-radius: 500px  ;
+    color: #505760;
+    margin-top: 100px;
+}
+h1 {
+    font-size: 60px;
+    margin: 0;
+}
+h2 {
+    margin: 0;
+    font-size: 40px;
+}
+h3 {
+    padding: 0;
+    margin: 0;
+    font-size: 30px;
+    font-style: italic;
+}

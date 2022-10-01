@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
-import { Home } from './pages';
+import { Routes, Route } from "react-router-dom";
+import { Home, About } from './pages';
 import { Header, Footer } from './layout/index'
 
 
@@ -10,8 +11,13 @@ const App = () => {
     <>
         <div style={{ backgroundColor:'#505760', color: '#cbd3e0', margin: '0', padding: '10px'}}>
           <Header />
-          <Home />
-          {/* <Footer /> */}
+          <Routes>
+
+          <Route path="/" element={<Home />}></Route>
+          <Route path="/about" element={<About />}></Route>
+
+          </Routes>
+          <Footer />
 
         </div>
     </>

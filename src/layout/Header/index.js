@@ -9,7 +9,7 @@ export function Header() {
 
     return (
         <>
-            <ul>
+            <ul className="header">
                 <NavLink className={activeClass} to="/" end>Home</NavLink>
                 <NavLink className={activeClass} to="about" end>About Me</NavLink>
                 <NavLink className={activeClass} to="projects" end>Projects</NavLink>

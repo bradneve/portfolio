@@ -1,4 +1,4 @@
-ul{
+.header {
     display: flex;
     padding-bottom: 20px;
     justify-content:flex-end;
@@ -14,9 +14,11 @@ ul{
 }
 
 .current, .current:hover {
-    color: #10145E;
+    color: #FEA538;
     font-weight: bold;
     font-size: 22px;
     text-decoration: none;
     cursor:default;
+    padding: 10px;
+    
 }
