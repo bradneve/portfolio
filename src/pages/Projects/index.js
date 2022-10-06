@@ -1,10 +1,10 @@
 import React from 'react'
 import { Album } from '../../components/index'
 
-const Project = () => {
+const Projects = () => {
   return (
     <Album />
   )
 }
 
-export default Project
+export default Projects
