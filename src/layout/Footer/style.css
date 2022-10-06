@@ -11,13 +11,13 @@ li {
     padding-left: 20px;
     list-style: none;
 }
-a {
+.contactLink {
     text-decoration: none;
     color: #cbd3e0;
 }
-a:hover {
+.contactLink:hover {
     font-weight: bold;
-    /* color: orangered; */
+    color: #FEA538;
 }
 
 .email {

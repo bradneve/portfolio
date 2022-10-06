@@ -12,6 +12,10 @@
     font-weight: bold;
     padding: 15px;
 }
+.navFont:hover{
+    text-decoration:underline;
+    color: inherit;
+}
 
 .current, .current:hover {
     color: #FEA538;
