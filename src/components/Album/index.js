@@ -65,6 +65,12 @@ export default function Album() {
                                     <Card.Text>
                                         Habitual was built as part of a group project. It allows you to, upon login, set (and subsequently track) habits you wish to track.
                                     </Card.Text>
+                                    <a href="https://front-end-habitual.netlify.app/index.html">
+                                    <button className='btnPrimary'>View live site</button>
+                                    </a>
+                                    <a href="https://github.com/bradneve/central_repo_habitual">
+                                    <button className='btnSecondary'>View GitHub repo</button>
+                                    </a>
                                 </Card.Body>
                             </Card>
                         </Col>

@@ -9,17 +9,32 @@ p {
     font-size: 20px;
 }
 
-.cvDownload{
-    background-color: #FEA538;
+.btnPrimary{
+    background-color:#505760;  
+    color: #cbd3e0;
+    border-style: none;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 20px;
+    font-weight:500;
+    box-shadow:inset;
+    margin-right: 10px;
+}
+.btnPrimary:hover{
+    cursor: pointer;
+    padding: 11px;
+}
+.btnSecondary{
+    background-color:#FEA538;  
     color: #505760;
     border-style: none;
     border-radius: 5px;
-    padding: 15px;
+    padding: 10px;
     font-size: 20px;
-    font-weight: bold;
-    margin-top: 30px;
+    font-weight:500;
+    box-shadow:inset;
 }
-
-.cvDownload:hover{
+.btnSecondary:hover{
     cursor: pointer;
+    padding: 11px;
 }
