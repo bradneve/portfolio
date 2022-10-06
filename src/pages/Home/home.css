@@ -13,6 +13,9 @@
     border-top-right-radius: 500px  ;
     color: #505760;
     margin-top: 100px;
+    border-color: #FEA538;
+    border-width: 5px;
+    border-top-style: solid;
 }
 h1 {
     font-size: 60px;
@@ -27,4 +30,5 @@ h3 {
     margin: 0;
     font-size: 30px;
     font-style: italic;
+    color: #FEA538;
 }
