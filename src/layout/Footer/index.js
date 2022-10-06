@@ -34,9 +34,15 @@ export function Footer() {
                         color="text.secondary"
                         component="p"
                     >
-                     <a href="mailto: brad.neve@gmail.com">brad.neve@gmail.com</a>
-                    LinkedIn : <a href="https://www.linkedin.com/in/bradley-neve/" target={'blank'}>Bradley Neve</a>
-                    GitHub : <a href="https://github.com/bradneve" target={'blank'}>bradneve</a>
+                    <li>
+                    <i class="fa fa-envelope" style={{color: '#cbd3e0', fontSize: '25px', padding: '5px'}}></i> <a href="mailto: brad.neve@gmail.com">brad.neve@gmail.com</a>
+                    </li>
+                    <li>
+                    <i class="fa fa-linkedin" style={{color: '#cbd3e0', fontSize: '25px', padding: '5px'}}></i><a href="https://www.linkedin.com/in/bradley-neve/" target={'blank'}>Bradley Neve</a>
+                    </li>
+                    <li>
+                    <i class="fa fa-github" style={{color: '#cbd3e0', fontSize: '25px', padding: '5px'}}></i> <a href="https://github.com/bradneve" target={'blank'}>bradneve</a>
+                    </li>
                     </Typography>
                     <Copyright />
             </div>
