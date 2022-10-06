@@ -9,7 +9,7 @@
 .navFont{
     text-decoration: none;
     color: inherit;
-    font-weight: bold;
+    /* font-weight: bold; */
     padding: 15px;
 }
 .navFont:hover{

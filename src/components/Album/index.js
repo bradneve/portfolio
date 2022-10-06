@@ -38,12 +38,12 @@ export default function Album() {
                             variant="h2"
                             align="center"
                             color="#505760"
-                            style={{ fontWeight: 'bold' }}
+
                             gutterBottom
                         >
                             My Projects
                         </Typography>
-                        <Typography variant="h5" align="center" color="#505760" style={{ fontWeight: 'bold' }} paragraph>
+                        <Typography variant="h5" align="center" color="#505760"  paragraph>
                             Here are a few of the projects I've worked on since I began developing. You can follow the links to view the GitHub repos or view the live site.
                         </Typography>
                         <Stack
