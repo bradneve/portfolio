@@ -38,12 +38,12 @@ export default function Album() {
                             variant="h2"
                             align="center"
                             color="#505760"
-                            style={{fontWeight : 'bold'}}
+                            style={{ fontWeight: 'bold' }}
                             gutterBottom
                         >
                             My Projects
                         </Typography>
-                        <Typography variant="h5" align="center" color="#505760" style={{fontWeight : 'bold'}} paragraph>
+                        <Typography variant="h5" align="center" color="#505760" style={{ fontWeight: 'bold' }} paragraph>
                             Here are a few of the projects I've worked on since I began developing. You can follow the links to view the GitHub repos or view the live site.
                         </Typography>
                         <Stack
@@ -60,27 +60,27 @@ export default function Album() {
                     <Grid container spacing={4}>
                         {cards.map((card) => (
                             <Grid item key={card} xs={12} sm={6} md={4}>
-                                    <Card sx={{ maxWidth: 345 }}>
-      <CardMedia
-        component="img"
-        alt="green iguana"
-        height="140"
-        image="/static/images/cards/contemplative-reptile.jpg"
-      />
-      <CardContent>
-        <Typography gutterBottom variant="h5" component="div">
-          Lizard
-        </Typography>
-        <Typography variant="body2" color="text.secondary">
-          Lizards are a widespread group of squamate reptiles, with over 6,000
-          species, ranging across all continents except Antarctica
-        </Typography>
-      </CardContent>
-      <CardActions>
-        <Button size="small">Share</Button>
-        <Button size="small">Learn More</Button>
-      </CardActions>
-    </Card>
+                                <Card sx={{ maxWidth: 345 }}>
+                                    <CardMedia
+                                        component="img"
+                                        alt="green iguana"
+                                        height="140"
+                                        image="/static/images/cards/contemplative-reptile.jpg"
+                                    />
+                                    <CardContent>
+                                        <Typography gutterBottom variant="h5" component="div">
+                                            Lizard
+                                        </Typography>
+                                        <Typography variant="body2" color="text.secondary">
+                                            Lizards are a widespread group of squamate reptiles, with over 6,000
+                                            species, ranging across all continents except Antarctica
+                                        </Typography>
+                                    </CardContent>
+                                    <CardActions>
+                                        <Button size="small">Share</Button>
+                                        <Button size="small">Learn More</Button>
+                                    </CardActions>
+                                </Card>
                             </Grid>
                         ))}
                     </Grid>
