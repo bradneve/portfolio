@@ -55,7 +55,7 @@ export default function Album() {
                         </Stack>
                     </Container>
                 </Box>
-                <Row style={{padding: '50px'}} xs={1} md={1} className="g-4">
+                <Row style={{padding: '50px'}} xs={1} md={2} className="g-4">
                     
                         <Col>
                             <Card style={{backgroundColor: '#cbd3e0', color: '#505760'}}>
@@ -65,10 +65,61 @@ export default function Album() {
                                     <Card.Text>
                                         Habitual was built as part of a group project. It allows you to, upon login, set (and subsequently track) habits you wish to track.
                                     </Card.Text>
-                                    <a href="https://front-end-habitual.netlify.app/index.html">
+                                    <a target='blank' href="https://front-end-habitual.netlify.app/index.html">
                                     <button className='btnPrimary'>View live site</button>
                                     </a>
-                                    <a href="https://github.com/bradneve/central_repo_habitual">
+                                    <a target='blank' href="https://github.com/bradneve/central_repo_habitual">
+                                    <button className='btnSecondary'>View GitHub repo</button>
+                                    </a>
+                                </Card.Body>
+                            </Card>
+                        </Col>
+                        <Col>
+                            <Card style={{backgroundColor: '#cbd3e0', color: '#505760'}}>
+                                <Card.Img variant="top" src="wroteIt.png" />
+                                <Card.Body>
+                                    <Card.Title>wroteIt</Card.Title>
+                                    <Card.Text>
+                                        wroteIt too was built as part of a group project. It was created as an anonymous blog website.
+                                    </Card.Text>
+                                    <a target='blank' href="https://resilient-frangipane-39c540.netlify.app/">
+                                    <button className='btnPrimary'>View live site</button>
+                                    </a>
+                                    <a target='blank' href="https://github.com/bradneve/project-1-front-end">
+                                    <button className='btnSecondary'>View GitHub repo</button>
+                                    </a>
+                                </Card.Body>
+                            </Card>
+                        </Col>
+                        <Col>
+                            <Card style={{backgroundColor: '#cbd3e0', color: '#505760'}}>
+                                <Card.Img variant="top" src="habitual.png" />
+                                <Card.Body>
+                                    <Card.Title>Habitual</Card.Title>
+                                    <Card.Text>
+                                        Habitual was built as part of a target='blank' group project. It allows you to, upon login, set (and subsequently track) habits you wish to track.
+                                    </Card.Text>
+                                    <a target='blank' href="https://front-end-habitual.netlify.app/index.html">
+                                    <button className='btnPrimary'>View live site</button>
+                                    </a>
+                                    <a target='blank' href="https://github.com/bradneve/central_repo_habitual">
+                                    <button className='btnSecondary'>View GitHub repo</button>
+                                    </a>
+                                </Card.Body>
+                            </Card>
+                        </Col>
+                        <Col>
+                            <Card style={{backgroundColor: '#cbd3e0', color: '#505760'}}>
+                                <Card.Img variant="top" src="habitual.png" />
+                                <Card.Body>
+                                    <Card.Title>Habitual</Card.Title>
+                                    <Card.Text>
+                                        Habitual was built as part of a target='blank' group project. It allows you to, upon login, set (and subsequently track) habits you wish to track.
+                                    </Card.Text>
+                                    <a target='blank' href="https://front-end-habitual.netlify.app/index.html">
+                                    <button className='btnPrimary'>View live site</button>
+                                    </a>
+                                    <a target='blank' href="https://github.com/bradneve/central_repo_habitual">
                                     <button className='btnSecondary'>View GitHub repo</button>
                                     </a>
                                 </Card.Body>
