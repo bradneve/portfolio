@@ -55,7 +55,7 @@ export default function Album() {
                         </Stack>
                     </Container>
                 </Box>
-                <Row style={{padding: '50px'}} xs={1} md={2} className="g-4">
+                <Row style={{padding: '50px'}} xs={1} md={1} className="g-4">
                     
                         <Col>
                             <Card style={{backgroundColor: '#cbd3e0', color: '#505760'}}>
