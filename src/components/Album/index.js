@@ -44,7 +44,7 @@ export default function Album() {
                             My Projects
                         </Typography>
                         <Typography variant="h5" align="center" color="#505760"  paragraph>
-                            Here are a few of the projects I've worked on since I began developing. You can follow the links to view the GitHub repos or view the live site.
+                            Here are a few of the projects I've worked on since I began developing. You can follow the links to view the GitHub repos or view the live site (where applicable).
                         </Typography>
                         <Stack
                             sx={{ pt: 4 }}
@@ -80,7 +80,7 @@ export default function Album() {
                                 <Card.Body>
                                     <Card.Title>Habitual</Card.Title>
                                     <Card.Text>
-                                        Habitual was built as part of a group project. It allows you to, upon login, set (and subsequently track) habits you wish to track.
+                                        Habitual is a habit tracker app. It allows you to, upon login, set and track habits. It was built as part of a group project.
                                     </Card.Text>
                                     <a target='blank' href="https://front-end-habitual.netlify.app/index.html">
                                     <button className='btnPrimary'>View live site</button>
@@ -97,7 +97,7 @@ export default function Album() {
                                 <Card.Body>
                                     <Card.Title>wroteIt</Card.Title>
                                     <Card.Text>
-                                        wroteIt too was built as part of a group project. It was created as an anonymous blog website.
+                                        wroteIt is an anonymous blog posting site, built using html, css and vanilla JavaScript. It was built as part of a group project.
                                     </Card.Text>
                                     <a target='blank' href="https://resilient-frangipane-39c540.netlify.app/">
                                     <button className='btnPrimary'>View live site</button>
@@ -114,7 +114,7 @@ export default function Album() {
                                 <Card.Body>
                                     <Card.Title>The Perron-Frobenius Theorem and the Pagerank Algorithm From a Mathematical Perspective</Card.Title>
                                     <Card.Text>
-                                        My final university project.
+                                        My final year university project.
                                     </Card.Text>
                                     <a target='blank' href="Project_in_Maths.pdf">
                                     <button className='btnPrimary'>View PDF</button>
