@@ -1,6 +1,5 @@
 
 import * as React from 'react';
-import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 import Col from 'react-bootstrap/Col';
 import Row from 'react-bootstrap/Row';
@@ -14,7 +13,6 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 
 
-const cards = [1, 2, 3, 4, 5, 6, 7, 8, 9];
 
 const theme = createTheme();
 
