@@ -6,7 +6,7 @@
 
 .streak {
 
-    background-color: #cbd3e0;
+    background-image: linear-gradient(to right, #cbd3e0 60%, #505760);
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -17,6 +17,7 @@
     border-color: #FEA538;
     border-width: 5px;
     border-top-style: solid;
+
 }
 .myName {
     font-size: 60px;
