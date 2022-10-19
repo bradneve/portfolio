@@ -59,6 +59,23 @@ export default function Album() {
                     
                         <Col>
                             <Card style={{backgroundColor: '#cbd3e0', color: '#505760'}}>
+                                <Card.Img variant="top" src="triviaRangers.png" />
+                                <Card.Body>
+                                    <Card.Title>Trivia Rangers</Card.Title>
+                                    <Card.Text>
+                                        Trivia Rangers is a multiplayer trivia quiz game bult using react and socket.io. It was built as part of a group project.
+                                    </Card.Text>
+                                    <a target='blank' href="https://triviarangers.netlify.app/">
+                                    <button className='btnPrimary'>View live site</button>
+                                    </a>
+                                    <a target='blank' href="https://github.com/bradneve/Lap-3-Project-Client">
+                                    <button className='btnSecondary'>View GitHub repo</button>
+                                    </a>
+                                </Card.Body>
+                            </Card>
+                        </Col>
+                        <Col>
+                            <Card style={{backgroundColor: '#cbd3e0', color: '#505760'}}>
                                 <Card.Img variant="top" src="habitual.png" />
                                 <Card.Body>
                                     <Card.Title>Habitual</Card.Title>
@@ -93,34 +110,14 @@ export default function Album() {
                         </Col>
                         <Col>
                             <Card style={{backgroundColor: '#cbd3e0', color: '#505760'}}>
-                                <Card.Img variant="top" src="habitual.png" />
+                                <Card.Img variant="top" src="projectInMaths.png" />
                                 <Card.Body>
-                                    <Card.Title>Habitual</Card.Title>
+                                    <Card.Title>The Perron-Frobenius Theorem and the Pagerank Algorithm From a Mathematical Perspective</Card.Title>
                                     <Card.Text>
-                                        Habitual was built as part of a target='blank' group project. It allows you to, upon login, set (and subsequently track) habits you wish to track.
+                                        My final university project.
                                     </Card.Text>
-                                    <a target='blank' href="https://front-end-habitual.netlify.app/index.html">
-                                    <button className='btnPrimary'>View live site</button>
-                                    </a>
-                                    <a target='blank' href="https://github.com/bradneve/central_repo_habitual">
-                                    <button className='btnSecondary'>View GitHub repo</button>
-                                    </a>
-                                </Card.Body>
-                            </Card>
-                        </Col>
-                        <Col>
-                            <Card style={{backgroundColor: '#cbd3e0', color: '#505760'}}>
-                                <Card.Img variant="top" src="habitual.png" />
-                                <Card.Body>
-                                    <Card.Title>Habitual</Card.Title>
-                                    <Card.Text>
-                                        Habitual was built as part of a target='blank' group project. It allows you to, upon login, set (and subsequently track) habits you wish to track.
-                                    </Card.Text>
-                                    <a target='blank' href="https://front-end-habitual.netlify.app/index.html">
-                                    <button className='btnPrimary'>View live site</button>
-                                    </a>
-                                    <a target='blank' href="https://github.com/bradneve/central_repo_habitual">
-                                    <button className='btnSecondary'>View GitHub repo</button>
+                                    <a target='blank' href="Project_in_Maths.pdf">
+                                    <button className='btnPrimary'>View PDF</button>
                                     </a>
                                 </Card.Body>
                             </Card>
