@@ -2,6 +2,7 @@ import React from 'react';
 import { Routes, Route } from "react-router-dom";
 import { Home, About, Projects } from './pages';
 import { Header, Footer } from './layout/index'
+import './app.css'
 
 
 const App = () => {
@@ -9,7 +10,7 @@ const App = () => {
 
   return (
     <>
-        <div style={{ backgroundColor:'#505760', color: '#cbd3e0', margin: '0', padding: '10px'}}>
+        <div className="app">
           <Header />
           <Routes>
 

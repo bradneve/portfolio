@@ -10,8 +10,8 @@ p {
 }
 
 .btnPrimary{
-    background-color:#505760;  
-    color: #cbd3e0;
+    background-color:var(--primary);  
+    color: var(--tertiary);
     border-style: none;
     border-radius: 5px;
     padding: 10px;
@@ -25,8 +25,8 @@ p {
     padding: 11px;
 }
 .btnSecondary{
-    background-color:#FEA538;  
-    color: #505760;
+    background-color:var(--tertiary);  
+    color: var(--primary);
     border-style: none;
     border-radius: 5px;
     padding: 10px;
@@ -42,7 +42,7 @@ p {
 .education-container{
     justify-content: space-between;
     align-items: center;
-    border-top-style: solid;
+    /* border-top-style: solid; */
 }
 
 .education-list{

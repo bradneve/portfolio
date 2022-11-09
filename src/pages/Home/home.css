@@ -2,20 +2,21 @@
     max-width: 400px;
     border-radius: 400px;
     padding: 30px;
+    /* margin-right: 100px; */
 }
 
 .streak {
 
-    background-image: linear-gradient(to right, #cbd3e0 60%, #505760);
+    background-image: linear-gradient(to right, var(--secondary) 60%, var(--primary));
     display: flex;
     align-items: center;
     justify-content: space-between;
-    border-bottom-right-radius: 500px  ;
-    border-top-right-radius: 500px  ;
-    color: #505760;
+    /* border-bottom-right-radius: 500px  ; */
+    /* border-top-right-radius: 500px  ; */
+    color: var(--primary);
     margin-top: 100px;
-    border-color: #FEA538;
-    border-width: 5px;
+    border-color: var(--tertiary);
+    border-width: 3px;
     border-top-style: solid;
 
 }
@@ -32,7 +33,7 @@
     margin: 0;
     font-size: 30px;
     font-style: italic;
-    color: #FEA538;
+    color: var(--tertiary);
 }
 @media screen and (max-width: 850px){
     .gradPic {
@@ -43,7 +44,7 @@
     
     .streak {
     
-        background-color: #cbd3e0;
+        background-color: var(--secondary);
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -52,9 +53,9 @@
         border-bottom-right-radius: 0px  ;
         /* border-bottom-left-radius: 500px  ; */
         border-top-right-radius: 0 ;
-        color: #505760;
+        color: var(--primary);
         margin-top: 100px;
-        border-color: #FEA538;
+        border-color: var(--tertiary);
         border-width: 5px;
         border-top-style: solid;
     }
@@ -71,6 +72,6 @@
         margin: 0;
         font-size: 30px;
         font-style: italic;
-        color:#FEA538;
+        color:var(--tertiary);
     }
 }

@@ -3,11 +3,12 @@
     padding-bottom: 20px;
     justify-content:flex-end;
     font-size: 20px;
-    border-bottom-style: solid;
+    /* border-bottom-style: solid; */
     position: sticky; 
     top: 0;
-    background-color: #505760;
+    background-color: var(--primary);
     z-index: 1;
+    padding: 10px;
 }
 
 .navFont{
@@ -22,7 +23,7 @@
 }
 
 .current, .current:hover {
-    color: #FEA538;
+    color: var(--tertiary);
     font-weight: bold;
     font-size: 22px;
     text-decoration: none;

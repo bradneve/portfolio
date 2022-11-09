@@ -1,0 +1,36 @@
+/* :root{
+    --primary:#1A2238 ;
+    --secondary: #9DAAF2;
+    --tertiary: #FF6A3D ;
+} */
+/* :root{
+    --primary: #2a324b;
+    --secondary: #767B91;
+    --tertiary: #49111C
+} */
+/* :root{
+    --primary:#8DB48E ;
+    --secondary:#4D724D ;
+    --tertiary: #F5F5F5
+} */
+/* :root{
+    --primary: #051622;
+    --secondary: #DEB992;
+    --tertiary: #1BA098
+} */
+:root{
+    --primary: #1D2228;
+    --secondary: #E1E2E2;
+    --tertiary: #FB8122
+}
+
+.app{
+    color: var(--secondary);
+    margin: 0;
+    padding: 0;
+    background-color: var(--primary);
+}
+
+html, body, .app {
+    height: 100%
+  }

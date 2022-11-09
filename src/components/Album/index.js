@@ -25,7 +25,7 @@ export default function Album() {
                 {/* Hero unit */}
                 <Box
                     sx={{
-                        bgcolor: '#cbd3e0',
+                        bgcolor: 'var(--secondary)',
                         pt: 8,
                         pb: 6,
                     }}
@@ -35,13 +35,13 @@ export default function Album() {
                             component="h1"
                             variant="h2"
                             align="center"
-                            color="#505760"
+                            color="var(--primary)"
 
                             gutterBottom
                         >
                             My Projects
                         </Typography>
-                        <Typography variant="h5" align="center" color="#505760"  paragraph>
+                        <Typography variant="h5" align="center" color="var(--primary)"  paragraph>
                             Here are a few of the projects I've worked on since I began developing. You can follow the links to view the GitHub repos or view the live site (where applicable).
                         </Typography>
                         <Stack
@@ -56,7 +56,24 @@ export default function Album() {
                 <Row style={{padding: '50px'}} xs={1} md={2} className="g-4">
                     
                         <Col>
-                            <Card style={{backgroundColor: '#cbd3e0', color: '#505760'}}>
+                            <Card style={{backgroundColor: 'var(--secondary)', color: 'var(--primary)'}}>
+                                <Card.Img variant="top" src="fantaisy.png" />
+                                <Card.Body>
+                                    <Card.Title>fantAIsy Football</Card.Title>
+                                    <Card.Text>
+                                        fantAIsy Football is a website which aims to predict fantasy premier league points for each player in the premier league, using a machine learning model. It was built as part of a group project.
+                                    </Card.Text>
+                                    <a target='blank' href="https://fantaisy-football.netlify.app/">
+                                    <button className='btnPrimary'>View live site</button>
+                                    </a>
+                                    <a target='blank' href="https://github.com/bradneve/fantaisy-football-front-end">
+                                    <button className='btnSecondary'>View GitHub repo</button>
+                                    </a>
+                                </Card.Body>
+                            </Card>
+                        </Col>
+                        <Col>
+                            <Card style={{backgroundColor: 'var(--secondary)', color: 'var(--primary)'}}>
                                 <Card.Img variant="top" src="triviaRangers.png" />
                                 <Card.Body>
                                     <Card.Title>Trivia Rangers</Card.Title>
@@ -73,7 +90,7 @@ export default function Album() {
                             </Card>
                         </Col>
                         <Col>
-                            <Card style={{backgroundColor: '#cbd3e0', color: '#505760'}}>
+                            <Card style={{backgroundColor: 'var(--secondary)', color: 'var(--primary)'}}>
                                 <Card.Img variant="top" src="habitual.png" />
                                 <Card.Body>
                                     <Card.Title>Habitual</Card.Title>
@@ -90,7 +107,7 @@ export default function Album() {
                             </Card>
                         </Col>
                         <Col>
-                            <Card style={{backgroundColor: '#cbd3e0', color: '#505760'}}>
+                            <Card style={{backgroundColor: 'var(--secondary)', color: 'var(--primary)'}}>
                                 <Card.Img variant="top" src="wroteIt.png" />
                                 <Card.Body>
                                     <Card.Title>wroteIt</Card.Title>
@@ -107,7 +124,7 @@ export default function Album() {
                             </Card>
                         </Col>
                         <Col>
-                            <Card style={{backgroundColor: '#cbd3e0', color: '#505760'}}>
+                            <Card style={{backgroundColor: 'var(--secondary)', color: 'var(--primary)'}}>
                                 <Card.Img variant="top" src="projectInMaths.png" />
                                 <Card.Body>
                                     <Card.Title>The Perron-Frobenius Theorem and the Pagerank Algorithm From a Mathematical Perspective</Card.Title>
