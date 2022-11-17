@@ -4,22 +4,36 @@
     padding: 30px;
     /* margin-right: 100px; */
 }
+.fantaisyPic {
+    max-height: 400px;
+    padding: 30px;
+    /* margin-right: 100px; */
+}
 
 .streak {
-
     background-image: linear-gradient(to right, var(--secondary) 60%, var(--primary));
     display: flex;
     align-items: center;
     justify-content: space-between;
-    /* border-bottom-right-radius: 500px  ; */
-    /* border-top-right-radius: 500px  ; */
     color: var(--primary);
     margin-top: 100px;
     border-color: var(--tertiary);
     border-width: 3px;
     border-top-style: solid;
-
 }
+
+.streak-two {
+    /* background-image: linear-gradient(to left, var(--secondary) 60%, var(--primary)); */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: var(--primary);
+    margin-top: 100px;
+    border-color: var(--tertiary);
+    border-width: 3px;
+    /* border-top-style: solid; */
+}
+
 .myName {
     font-size: 60px;
     margin: 0;
@@ -75,3 +89,42 @@
         color:var(--tertiary);
     }
 }
+.gallery-container{
+    margin-top: 100px;
+    text-align: center;
+}
+
+.gallery {
+    /* (B1) GRID LAYOUT - 3 IMAGES PER ROW */
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+   
+    /* (B2) OPTIONAL WIDTH RESTRICT */
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+
+ /* (C) GALLERY IMAGES */
+.gallery img {
+    /* (C1) DIMENSION */
+    width: 100%;
+    padding: 10px;
+   
+    /* (C2) COLORS */
+    border: 1px solid #ddd;
+    background: var(--secondary);
+   
+    /* (C3) IMAGE RESIZE */
+    /* cover | contain | fill | scale-down */
+    object-fit: contain;
+    position: relative;
+  }
+
+  /* (E) OPTIONAL ZOOM ON HOVER */
+.gallery img:hover {
+    z-index: 9;
+    transform: scale(1.3);
+    /* linear | ease | ease-in | ease-out | ease-in-out */
+    transition: transform ease 0.5s;
+  }

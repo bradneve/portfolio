@@ -1,7 +1,7 @@
 .footer {
     padding-top: 20px;
-    position:sticky;
-    bottom: 0;
+    /* position:sticky; */
+    /* bottom: 0; */
     background-color: var(--primary);
 }
 

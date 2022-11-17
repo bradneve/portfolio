@@ -15,7 +15,7 @@ const About = () => {
                 </div>
             </div>
             <div className='education-container' style={{ padding: '30px', display: 'flex' }}>
-                <div style={{textAlign: 'center'}}>
+                <div style={{textAlign: 'center', width: '100%'}}>
                     <h2>Education</h2>
                     {/* <ul className='education-list'> */}
                         <p className='education-list'>Degree - Mathematics MMATH/BSc 2:1</p>
