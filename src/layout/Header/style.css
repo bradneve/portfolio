@@ -18,8 +18,8 @@
     padding: 15px;
 }
 .navFont:hover{
-    text-decoration:underline;
-    color: inherit;
+    cursor: pointer;
+    color: var(--tertiary);
 }
 
 .current, .current:hover {
