@@ -17,7 +17,7 @@ const Home = () => {
             </div>
 
             <div className='gallery-container'>
-                <h1 style={{paddingBottom: '100px'}}>Featured Projects</h1>
+                <h1 style={{paddingBottom: '50px'}}>Featured Projects</h1>
                 <div className="gallery">
                     <Link to="/projects">
                         <img className='gallery-img' src="fantaisy.png" title="TITLE 1" />
